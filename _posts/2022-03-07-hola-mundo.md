@@ -39,4 +39,4 @@ Imagen
 
 ![Texto alternativo](https://imagen_que_no_existe.jpg)
 
-![]({{site.url}}/images/2022-03-07/imagen_prueba.jpg)
+![]({{site.url}}/images/imagen_prueba.jpg)
