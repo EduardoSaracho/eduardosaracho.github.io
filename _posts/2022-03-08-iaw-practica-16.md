@@ -16,7 +16,7 @@ categories: README
 ## Paso 1
 <p style='text-align: justify;'>Crearemos un archivo <b>docker-compose.yml</b> para poder desplegar los servicios de <b>Prestashop</b>, <b>MariaDB</b> y <b>phpMyAdmin</b> utilizando las imágenes oficiales de <b>Docker Hub</b>. La imágen de <b>Prestashop</b> que se utilizará, sera la de <b>Bitnami</b>.</p>
 <p style='text-align: justify;'>Utilizará la versión 3.3 y tendrá definidos cuatro servicios diferentes.</p>
-![]({{site.url}}/images/prestashop.png)
+<p><img src="/images/prestashop.png" width="300px"></p>
 ![]({{site.url}}/images/mariadb.png)
 ![]({{site.url}}/images/phpmyadmin.png)
 ![]({{site.url}}/images/https-portal.png)
