@@ -64,9 +64,16 @@ apt-get install docker-compose -y
 ## Paso 1
 <p style='text-align: justify;'>Crearemos un archivo <b>docker-compose.yml</b> para poder desplegar los servicios de <b>WordPress</b>, <b>MySQL</b> y <b>phpMyAdmin</b> utilizando las imágenes oficiales de <b>Docker Hub</b>.</p>
 <p style='text-align: justify;'>Utilizará la versión 3.3 y tendrá definidos cuatro servicios diferentes.</p>
-<p><img src="https://github.com/EduardoSaracho/iaw-practica-15/blob/main/images/wordpress.png" width="500px"></p>
-<p><img src="https://github.com/EduardoSaracho/iaw-practica-15/blob/main/images/mysql.png" width="500px"></p>
-<p><img src="https://github.com/EduardoSaracho/iaw-practica-15/blob/main/images/phpmyadmin.png" width="500px"></p>
-<p><img src="https://github.com/EduardoSaracho/iaw-practica-15/blob/main/images/https-portal.png" width="500px"></p>
+
+![]({{site.url}}/images/wordpress.png)
+---
+
+![]({{site.url}}/images/mysql.png)
+---
+
+![]({{site.url}}/images/phpmyadmin2.png)
+---
+
+![]({{site.url}}/images/https-portal2.png)
 <p style='text-align: justify;'>Al final del archivo de <b>docker-compose</b> definiremos los volúmenes de <b>wordpress</b>, <b>mysql</b> y <b>https-portal</b> junto a las redes de <b>frontend</b> y <b>backend</b>.</p>
-<p><img src="https://github.com/EduardoSaracho/iaw-practica-15/blob/main/images/volumes-networks.png" width="300px"></p>
+![]({{site.url}}/images/volumes-networks2.png)
